@@ -1,6 +1,5 @@
 html{
     background-color: #111;
-    color: white;
     display: flex;
     justify-content: center;
 }
@@ -51,8 +50,10 @@ table>tbody>tr>td>button{
 /* Highlighted cells */
 table>tbody>tr>th{
     background-color: indigo;
+    color: white;
 }
 table>tbody>tr:not(:first-child, :last-child)>td:first-child{
     background-color: blue;
+    color:white;
     font-weight: bold;
 }
